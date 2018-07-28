@@ -246,6 +246,14 @@
         "version": "v4.0.0",
         "repo": "https://github.com/purescript-contrib/purescript-these.git"
     },
+    "reflection": {
+        "dependencies": [
+            "unsafe-coerce",
+            "proxy"
+        ],
+        "version": "v4.0.0",
+        "repo": "https://github.com/paf31/purescript-reflection.git"
+    },
     "group": {
         "dependencies": [
             "lists"

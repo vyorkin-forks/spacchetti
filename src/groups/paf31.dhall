@@ -73,4 +73,9 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-string-parsers.git"
         "v5.0.0"
+    , reflection =
+        mkPackage
+        [ "unsafe-coerce", "proxy" ]
+        "https://github.com/paf31/purescript-reflection.git"
+        "v4.0.0"
     }
