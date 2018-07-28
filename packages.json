@@ -1829,6 +1829,15 @@
         "version": "v5.0.0",
         "repo": "https://github.com/purescript/purescript-foreign.git"
     },
+    "halogen-storybook": {
+        "dependencies": [
+            "halogen",
+            "routing",
+            "foreign-object"
+        ],
+        "version": "v0.4.0",
+        "repo": "https://github.com/rnons/purescript-halogen-storybook.git"
+    },
     "nullable": {
         "dependencies": [
             "functions",

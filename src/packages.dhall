@@ -23,6 +23,7 @@
 ⫽ ./groups/paf31.dhall
 ⫽ ./groups/justinwoo.dhall
 ⫽ ./groups/anttih.dhall
+⫽ ./groups/rnons.dhall
 ⫽ ./groups/paluh.dhall
 ⫽ ./groups/krisajenkins.dhall
 ⫽ ./groups/menelaos.dhall
