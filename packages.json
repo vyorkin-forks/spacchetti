@@ -124,6 +124,16 @@
         "version": "v3.0.0",
         "repo": "https://github.com/purescript/purescript-proxy.git"
     },
+    "polyform": {
+        "dependencies": [
+            "bifunctors",
+            "either",
+            "generics-rep",
+            "profunctor-lenses"
+        ],
+        "version": "v4.0.0",
+        "repo": "https://github.com/krisajenkins/purescript-remotedata.git"
+    },
     "behaviors": {
         "dependencies": [
             "effect",
@@ -573,6 +583,15 @@
         "version": "v4.0.0",
         "repo": "https://github.com/purescript/purescript-exists.git"
     },
+    "halogen-renderless": {
+        "dependencies": [
+            "prelude",
+            "control",
+            "halogen"
+        ],
+        "version": "v0.0.3",
+        "repo": "https://github.com/thomashoneyman/purescript-halogen-renderless.git"
+    },
     "node-path": {
         "dependencies": [
             "effect"
@@ -604,6 +623,13 @@
         ],
         "version": "v0.3.0",
         "repo": "https://github.com/justinwoo/purescript-shoronpo.git"
+    },
+    "halogen-select": {
+        "dependencies": [
+            "halogen"
+        ],
+        "version": "v2.0.0",
+        "repo": "https://github.com/citizennet/purescript-halogen-select.git"
     },
     "argonaut-core": {
         "dependencies": [
@@ -729,6 +755,20 @@
         ],
         "version": "v5.0.0",
         "repo": "https://github.com/epost/purescript-node-postgres.git"
+    },
+    "uri": {
+        "dependencies": [
+            "arrays",
+            "generics-rep",
+            "globals",
+            "integers",
+            "parsing",
+            "profunctor-lenses",
+            "unfoldable",
+            "these"
+        ],
+        "version": "compiler/0.12",
+        "repo": "https://github.com/doolse/purescript-uri.git"
     },
     "halogen": {
         "dependencies": [
@@ -926,6 +966,14 @@
         "version": "v5.0.0",
         "repo": "https://github.com/purescript-node/purescript-node-child-process.git"
     },
+    "rationals": {
+        "dependencies": [
+            "integers",
+            "prelude"
+        ],
+        "version": "v5.0.0",
+        "repo": "https://github.com/anttih/purescript-rationals.git"
+    },
     "debug": {
         "dependencies": [
             "prelude"
@@ -1042,6 +1090,16 @@
         "version": "v3.0.0",
         "repo": "https://github.com/slamdata/purescript-avar.git"
     },
+    "halogen-formless": {
+        "dependencies": [
+            "halogen",
+            "halogen-renderless",
+            "polyform",
+            "validation"
+        ],
+        "version": "master",
+        "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git"
+    },
     "gen": {
         "dependencies": [
             "either",
@@ -1114,6 +1172,22 @@
         "version": "v6.0.0",
         "repo": "https://github.com/felixSchl/purescript-pipes.git"
     },
+    "fuzzy": {
+        "dependencies": [
+            "prelude",
+            "strings",
+            "foldable-traversable",
+            "tuples",
+            "ordered-collections",
+            "newtype",
+            "generics-rep",
+            "rationals",
+            "strongcheck",
+            "foreign-object"
+        ],
+        "version": "v0.2.1",
+        "repo": "https://github.com/citizennet/purescript-fuzzy.git"
+    },
     "affjax": {
         "dependencies": [
             "aff",
@@ -1145,6 +1219,19 @@
         ],
         "version": "v4.1.0",
         "repo": "https://github.com/purescript/purescript-refs.git"
+    },
+    "stringutils": {
+        "dependencies": [
+            "strings",
+            "partial",
+            "arrays",
+            "either",
+            "maybe",
+            "prelude",
+            "integers"
+        ],
+        "version": "compiler/0.12",
+        "repo": "https://github.com/menelaos/purescript-stringutils.git"
     },
     "nonempty": {
         "dependencies": [
