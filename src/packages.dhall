@@ -22,3 +22,4 @@
 ⫽ ./groups/natefaubion.dhall
 ⫽ ./groups/paf31.dhall
 ⫽ ./groups/justinwoo.dhall
+⫽ ./groups/vyorkin.dhall
