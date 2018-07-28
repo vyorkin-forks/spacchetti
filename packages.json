@@ -7,6 +7,16 @@
         "version": "v2.0.0",
         "repo": "https://github.com/purescript-web/purescript-web-storage.git"
     },
+    "remotedata": {
+        "dependencies": [
+            "bifunctors",
+            "either",
+            "generics-rep",
+            "profunctor-lenses"
+        ],
+        "version": "v4.0.0",
+        "repo": "https://github.com/krisajenkins/purescript-remotedata.git"
+    },
     "bigints": {
         "dependencies": [
             "integers",
@@ -126,13 +136,19 @@
     },
     "polyform": {
         "dependencies": [
-            "bifunctors",
-            "either",
+            "newtype",
+            "ordered-collections",
             "generics-rep",
-            "profunctor-lenses"
+            "variant",
+            "transformers",
+            "profunctor",
+            "invariant",
+            "run",
+            "foreign",
+            "foreign-object"
         ],
-        "version": "v4.0.0",
-        "repo": "https://github.com/krisajenkins/purescript-remotedata.git"
+        "version": "v0.7.0",
+        "repo": "https://github.com/paluh/purescript-polyform.git"
     },
     "behaviors": {
         "dependencies": [
