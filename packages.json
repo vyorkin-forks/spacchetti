@@ -720,17 +720,17 @@
     },
     "css": {
         "dependencies": [
-            "colors",
-            "console",
             "generics-rep",
             "nonempty",
             "profunctor",
             "strings",
             "these",
-            "transformers"
+            "transformers",
+            "colors",
+            "console"
         ],
-        "version": "v4.0.0",
-        "repo": "https://github.com/slamdata/purescript-css.git"
+        "version": "master",
+        "repo": "https://github.com/vyorkin-forks/purescript-css.git"
     },
     "lenient-html-parser": {
         "dependencies": [

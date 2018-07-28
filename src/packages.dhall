@@ -31,3 +31,4 @@
 ⫽ ./groups/thomashoneyman.dhall
 ⫽ ./groups/citizennet.dhall
 ⫽ ./groups/vyorkin.dhall
+⫽ ./groups/patches.dhall
