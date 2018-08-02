@@ -613,7 +613,7 @@
             "control",
             "halogen"
         ],
-        "version": "halogen-v5.0.0",
+        "version": "master",
         "repo": "https://github.com/thomashoneyman/purescript-halogen-renderless.git"
     },
     "node-path": {
@@ -652,7 +652,7 @@
         "dependencies": [
             "halogen"
         ],
-        "version": "halogen-v5.0.0",
+        "version": "master",
         "repo": "https://github.com/citizennet/purescript-halogen-select.git"
     },
     "argonaut-core": {
@@ -693,7 +693,7 @@
             "unsafe-coerce",
             "web-html"
         ],
-        "version": "v4.0.0",
+        "version": "v3.0.0",
         "repo": "https://github.com/slamdata/purescript-halogen-vdom.git"
     },
     "argonaut-traversals": {
@@ -818,7 +818,7 @@
             "unsafe-reference",
             "web-uievents"
         ],
-        "version": "master",
+        "version": "v4.0.0",
         "repo": "https://github.com/slamdata/purescript-halogen.git"
     },
     "gomtang-basic": {
@@ -1121,7 +1121,7 @@
             "polyform",
             "validation"
         ],
-        "version": "halogen-v5.0.0",
+        "version": "master",
         "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git"
     },
     "gen": {
@@ -1859,7 +1859,7 @@
             "routing",
             "foreign-object"
         ],
-        "version": "v0.4.0",
+        "version": "master",
         "repo": "https://github.com/rnons/purescript-halogen-storybook.git"
     },
     "nullable": {

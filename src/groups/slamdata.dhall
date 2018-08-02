@@ -88,7 +88,7 @@ in  { aff =
         , "web-uievents"
         ]
         "https://github.com/slamdata/purescript-halogen.git"
-        "master"
+        "v4.0.0"
     , halogen-vdom =
         mkPackage
         [ "bifunctors"
@@ -103,7 +103,7 @@ in  { aff =
         , "web-html"
         ]
         "https://github.com/slamdata/purescript-halogen-vdom.git"
-        "v4.0.0"
+        "v3.0.0"
     , routing =
         mkPackage
         [ "aff"

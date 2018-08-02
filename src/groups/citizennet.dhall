@@ -4,7 +4,7 @@ in  { halogen-select =
         mkPackage
         [ "halogen" ]
         "https://github.com/citizennet/purescript-halogen-select.git"
-        "halogen-v5.0.0"
+        "master"
     , fuzzy =
         mkPackage
         [ "prelude"
