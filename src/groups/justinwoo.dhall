@@ -105,4 +105,9 @@ in  { chanpon =
         [ "prelude", "event", "typelevel-prelude", "record" ]
         "https://github.com/justinwoo/purescript-choco-pie.git"
         "v2.0.0"
+    , biang =
+        mkPackage
+        [ "prelude", "typelevel-prelude", "generics-rep" ]
+        "https://github.com/justinwoo/purescript-biang.git"
+        "master"
     }

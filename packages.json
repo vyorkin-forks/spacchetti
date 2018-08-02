@@ -655,6 +655,15 @@
         "version": "master",
         "repo": "https://github.com/citizennet/purescript-halogen-select.git"
     },
+    "biang": {
+        "dependencies": [
+            "prelude",
+            "typelevel-prelude",
+            "generics-rep"
+        ],
+        "version": "master",
+        "repo": "https://github.com/justinwoo/purescript-biang.git"
+    },
     "argonaut-core": {
         "dependencies": [
             "arrays",
