@@ -1,11 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { halogen-select =
-        mkPackage
-        [ "halogen" ]
-        "https://github.com/citizennet/purescript-halogen-select.git"
-        "master"
-    , fuzzy =
+in  { fuzzy          =
         mkPackage
         [ "prelude"
         , "strings"
@@ -20,4 +15,9 @@ in  { halogen-select =
         ]
         "https://github.com/citizennet/purescript-fuzzy.git"
         "v0.2.1"
+    , halogen-select =
+        mkPackage
+        [ "halogen" ]
+        "https://github.com/citizennet/purescript-halogen-select.git"
+        "master"
     }

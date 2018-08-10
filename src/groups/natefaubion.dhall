@@ -1,20 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { variant =
-        mkPackage
-        [ "enums"
-        , "lists"
-        , "maybe"
-        , "partial"
-        , "prelude"
-        , "record"
-        , "tuples"
-        , "typelevel-prelude"
-        , "unsafe-coerce"
-        ]
-        "https://github.com/natefaubion/purescript-variant.git"
-        "v5.0.0"
-    , run =
+in  { run     =
         mkPackage
         [ "aff"
         , "effect"
@@ -32,4 +18,18 @@ in  { variant =
         ]
         "https://github.com/natefaubion/purescript-run.git"
         "v2.0.0"
+    , variant =
+        mkPackage
+        [ "enums"
+        , "lists"
+        , "maybe"
+        , "partial"
+        , "prelude"
+        , "record"
+        , "tuples"
+        , "typelevel-prelude"
+        , "unsafe-coerce"
+        ]
+        "https://github.com/natefaubion/purescript-variant.git"
+        "v5.0.0"
     }

@@ -1172,7 +1172,7 @@
     },
     "prelude": {
         "dependencies": [],
-        "version": "v4.0.1",
+        "version": "v4.1.0",
         "repo": "https://github.com/purescript/purescript-prelude.git"
     },
     "bifunctors": {
@@ -1350,8 +1350,8 @@
             "aff",
             "simple-json"
         ],
-        "version": "v4.0.0",
-        "repo": "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+        "version": "master",
+        "repo": "https://github.com/vyorkin/purescript-node-telegram-bot-api.git"
     },
     "integers": {
         "dependencies": [

@@ -1,6 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { spec =
+in  { spec            =
         mkPackage
         [ "aff"
         , "ansi"

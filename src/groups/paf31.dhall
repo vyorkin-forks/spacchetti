@@ -1,24 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { event =
-        mkPackage
-        [ "prelude"
-        , "console"
-        , "effect"
-        , "filterable"
-        , "nullable"
-        , "unsafe-reference"
-        , "js-timers"
-        , "now"
-        ]
-        "https://github.com/paf31/purescript-event.git"
-        "v1.2.4"
-    , yargs =
-        mkPackage
-        [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
-        "https://github.com/paf31/purescript-yargs.git"
-        "v4.0.0"
-    , behaviors =
+in  { behaviors       =
         mkPackage
         [ "effect"
         , "event"
@@ -32,6 +14,19 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-behaviors.git"
         "v7.0.0"
+    , event           =
+        mkPackage
+        [ "prelude"
+        , "console"
+        , "effect"
+        , "filterable"
+        , "nullable"
+        , "unsafe-reference"
+        , "js-timers"
+        , "now"
+        ]
+        "https://github.com/paf31/purescript-event.git"
+        "v1.2.4"
     , foreign-generic =
         mkPackage
         [ "effect"
@@ -45,7 +40,7 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-foreign-generic.git"
         "v7.0.0"
-    , memoize =
+    , memoize         =
         mkPackage
         [ "either"
         , "generics-rep"
@@ -58,7 +53,12 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-memoize.git"
         "v5.0.0"
-    , string-parsers =
+    , reflection      =
+        mkPackage
+        [ "unsafe-coerce", "proxy" ]
+        "https://github.com/paf31/purescript-reflection.git"
+        "v4.0.0"
+    , string-parsers  =
         mkPackage
         [ "arrays"
         , "bifunctors"
@@ -73,9 +73,9 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-string-parsers.git"
         "v5.0.0"
-    , reflection =
+    , yargs           =
         mkPackage
-        [ "unsafe-coerce", "proxy" ]
-        "https://github.com/paf31/purescript-reflection.git"
+        [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
+        "https://github.com/paf31/purescript-yargs.git"
         "v4.0.0"
     }

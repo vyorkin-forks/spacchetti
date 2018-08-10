@@ -1,56 +1,71 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { chanpon =
+in  { biang                 =
+        mkPackage
+        [ "prelude", "typelevel-prelude", "generics-rep" ]
+        "https://github.com/justinwoo/purescript-biang.git"
+        "master"
+    , chanpon               =
         mkPackage
         [ "effect", "node-sqlite3", "prelude", "record" ]
         "https://github.com/justinwoo/purescript-chanpon.git"
         "v1.0.0"
-    , gomtang-basic =
+    , choco-pie             =
+        mkPackage
+        [ "prelude", "event", "typelevel-prelude", "record" ]
+        "https://github.com/justinwoo/purescript-choco-pie.git"
+        "v2.0.0"
+    , gomtang-basic         =
         mkPackage
         [ "console", "effect", "prelude", "record", "web-html" ]
         "https://github.com/justinwoo/purescript-gomtang-basic.git"
         "v0.2.0"
-    , jajanmen =
+    , jajanmen              =
         mkPackage
         [ "node-sqlite3", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-jajanmen.git"
         "v0.1.0"
-    , lenient-html-parser =
+    , lenient-html-parser   =
         mkPackage
         [ "console", "generics-rep", "prelude", "string-parsers" ]
         "https://github.com/justinwoo/purescript-lenient-html-parser.git"
         "v4.0.0"
-    , makkori =
+    , makkori               =
         mkPackage
         [ "functions", "node-http", "prelude", "record" ]
         "https://github.com/justinwoo/purescript-makkori.git"
         "v1.0.0"
-    , milkis =
+    , milkis                =
         mkPackage
         [ "aff-promise", "foreign-object", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-milkis.git"
         "v6.0.1"
-    , node-he =
+    , node-he               =
         mkPackage
         ([] : List Text)
         "https://github.com/justinwoo/purescript-node-he.git"
         "v0.2.0"
-    , node-sqlite3 =
+    , node-sqlite3          =
         mkPackage
         [ "aff", "foreign" ]
         "https://github.com/justinwoo/purescript-node-sqlite3"
         "v3.1.0"
-    , record-extra =
+    , node-telegram-bot-api =
+        mkPackage
+        [ "strings", "foreign", "aff", "simple-json" ]
+        "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+        "v4.0.0"
+    , record-extra          =
         mkPackage
         [ "lists", "record", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-record-extra.git"
         "v1.0.0"
-    , shoronpo =
+    , shoronpo              =
         mkPackage
         [ "prelude", "record-format" ]
         "https://github.com/justinwoo/purescript-shoronpo.git"
         "v0.3.0"
-    , simple-json =
+    , simple-json           =
         mkPackage
         [ "exceptions"
         , "foreign"
@@ -64,12 +79,12 @@ in  { chanpon =
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
         "v4.1.0"
-    , sunde =
+    , sunde                 =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
         "https://github.com/justinwoo/purescript-sunde.git"
         "v1.0.0"
-    , toppokki =
+    , toppokki              =
         mkPackage
         [ "aff-promise"
         , "functions"
@@ -80,7 +95,7 @@ in  { chanpon =
         ]
         "https://github.com/justinwoo/purescript-toppokki.git"
         "v1.0.0"
-    , tortellini =
+    , tortellini            =
         mkPackage
         [ "foreign-object"
         , "integers"
@@ -95,19 +110,4 @@ in  { chanpon =
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
         "v3.0.0"
-    , node-telegram-bot-api =
-        mkPackage
-        [ "strings", "foreign", "aff", "simple-json" ]
-        "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
-        "v4.0.0"
-    , choco-pie =
-        mkPackage
-        [ "prelude", "event", "typelevel-prelude", "record" ]
-        "https://github.com/justinwoo/purescript-choco-pie.git"
-        "v2.0.0"
-    , biang =
-        mkPackage
-        [ "prelude", "typelevel-prelude", "generics-rep" ]
-        "https://github.com/justinwoo/purescript-biang.git"
-        "master"
     }

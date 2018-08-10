@@ -1,6 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { halogen-formless =
+in  { halogen-formless   =
         mkPackage
         [ "halogen", "halogen-renderless", "polyform", "validation" ]
         "https://github.com/thomashoneyman/purescript-halogen-formless.git"

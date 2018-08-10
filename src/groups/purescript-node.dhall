@@ -1,6 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { node-buffer =
+in  { node-buffer        =
         mkPackage
         [ "arraybuffer-types", "effect", "maybe" ]
         "https://github.com/purescript-node/purescript-node-buffer.git"
@@ -19,7 +19,7 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-child-process.git"
         "v5.0.0"
-    , node-fs =
+    , node-fs            =
         mkPackage
         [ "datetime"
         , "effect"
@@ -42,12 +42,12 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-fs.git"
         "v5.0.0"
-    , node-fs-aff =
+    , node-fs-aff        =
         mkPackage
         [ "aff", "either", "node-fs", "node-path" ]
         "https://github.com/purescript-node/purescript-node-fs-aff.git"
         "v6.0.0"
-    , node-http =
+    , node-http          =
         mkPackage
         [ "arraybuffer-types"
         , "contravariant"
@@ -65,12 +65,12 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-http.git"
         "v5.0.0"
-    , node-path =
+    , node-path          =
         mkPackage
         [ "effect" ]
         "https://github.com/purescript-node/purescript-node-path.git"
         "v3.0.0"
-    , node-process =
+    , node-process       =
         mkPackage
         [ "effect"
         , "foreign-object"
@@ -82,7 +82,7 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-process"
         "v6.0.0"
-    , node-readline =
+    , node-readline      =
         mkPackage
         [ "effect"
         , "foreign"
@@ -93,17 +93,17 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-readline.git"
         "v4.0.0"
-    , node-streams =
+    , node-streams       =
         mkPackage
         [ "effect", "either", "exceptions", "node-buffer", "prelude" ]
         "https://github.com/purescript-node/purescript-node-streams.git"
         "v4.0.0"
-    , node-url =
+    , node-url           =
         mkPackage
         [ "nullable" ]
         "https://github.com/purescript-node/purescript-node-url.git"
         "v4.0.0"
-    , posix-types =
+    , posix-types        =
         mkPackage
         [ "maybe", "prelude" ]
         "https://github.com/purescript-node/purescript-posix-types"

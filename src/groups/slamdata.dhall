@@ -1,6 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall 
 
-in  { aff =
+in  { aff          =
         mkPackage
         [ "datetime"
         , "effect"
@@ -12,7 +12,7 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-aff.git"
         "v5.0.0"
-    , affjax =
+    , affjax       =
         mkPackage
         [ "aff"
         , "argonaut-core"
@@ -30,12 +30,12 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-affjax.git"
         "v6.0.0"
-    , avar =
+    , avar         =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
         "https://github.com/slamdata/purescript-avar.git"
         "v3.0.0"
-    , css =
+    , css          =
         mkPackage
         [ "colors"
         , "console"
@@ -48,22 +48,34 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-css.git"
         "v4.0.0"
-    , halogen-css =
-        mkPackage
-        [ "css", "halogen" ]
-        "https://github.com/slamdata/purescript-halogen-css.git"
-        "v8.0.0"
-    , dom-indexed =
+    , dom-indexed  =
         mkPackage
         [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
         "https://github.com/slamdata/purescript-dom-indexed.git"
         "v6.0.0"
-    , fork =
+    , fixed-points =
+        mkPackage
+        [ "exists", "newtype", "prelude", "transformers" ]
+        "https://github.com/slamdata/purescript-fixed-points.git"
+        "v5.1.0"
+    , fork         =
         mkPackage
         [ "aff" ]
         "https://github.com/slamdata/purescript-fork.git"
         "v4.0.0"
-    , halogen =
+    , formatters   =
+        mkPackage
+        [ "datetime"
+        , "fixed-points"
+        , "generics-rep"
+        , "lists"
+        , "parsing"
+        , "prelude"
+        , "transformers"
+        ]
+        "https://github.com/slamdata/purescript-formatters.git"
+        "v4.0.0"
+    , halogen      =
         mkPackage
         [ "aff"
         , "avar"
@@ -89,6 +101,11 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-halogen.git"
         "v4.0.0"
+    , halogen-css  =
+        mkPackage
+        [ "css", "halogen" ]
+        "https://github.com/slamdata/purescript-halogen-css.git"
+        "v8.0.0"
     , halogen-vdom =
         mkPackage
         [ "bifunctors"
@@ -104,7 +121,7 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-halogen-vdom.git"
         "v3.0.0"
-    , routing =
+    , routing      =
         mkPackage
         [ "aff"
         , "console"
@@ -124,21 +141,4 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-routing.git"
         "v8.0.0"
-    , fixed-points =
-        mkPackage
-        [ "exists", "newtype", "prelude", "transformers" ]
-        "https://github.com/slamdata/purescript-fixed-points.git"
-        "v5.1.0"
-    , formatters =
-        mkPackage
-        [ "datetime"
-        , "fixed-points"
-        , "generics-rep"
-        , "lists"
-        , "parsing"
-        , "prelude"
-        , "transformers"
-        ]
-        "https://github.com/slamdata/purescript-formatters.git"
-        "v4.0.0"
     }
