@@ -165,6 +165,15 @@
         "version": "v7.0.0",
         "repo": "https://github.com/paf31/purescript-behaviors.git"
     },
+    "generics-rep-optics": {
+        "dependencies": [
+            "generics-rep",
+            "profunctor-lenses",
+            "typelevel-prelude"
+        ],
+        "version": "v1.1.0",
+        "repo": "https://github.com/LiamGoodacre/purescript-generics-rep-optics.git"
+    },
     "control": {
         "dependencies": [
             "prelude"

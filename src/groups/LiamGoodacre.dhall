@@ -1,6 +1,6 @@
     let mkPackage = ./../mkPackage.dhall 
 
-in  { filterable =
+in  { filterable          =
         mkPackage
         [ "arrays"
         , "either"
@@ -11,4 +11,9 @@ in  { filterable =
         ]
         "https://github.com/LiamGoodacre/purescript-filterable.git"
         "v3.0.0"
+    , generics-rep-optics =
+        mkPackage
+        [ "generics-rep", "profunctor-lenses", "typelevel-prelude" ]
+        "https://github.com/LiamGoodacre/purescript-generics-rep-optics.git"
+        "v1.1.0"
     }
