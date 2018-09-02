@@ -121,6 +121,11 @@ in  { aff          =
         ]
         "https://github.com/slamdata/purescript-halogen-vdom.git"
         "v3.0.0"
+    , matryoshka   =
+        mkPackage
+        [ "prelude", "fixed-points", "free", "transformers", "profunctor" ]
+        "https://github.com/slamdata/purescript-matryoshka.git"
+        "v0.4.0"
     , routing      =
         mkPackage
         [ "aff"

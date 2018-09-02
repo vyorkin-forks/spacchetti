@@ -477,6 +477,17 @@
         "version": "v3.0.0",
         "repo": "https://github.com/purescript/purescript-type-equality.git"
     },
+    "matryoshka": {
+        "dependencies": [
+            "prelude",
+            "fixed-points",
+            "free",
+            "transformers",
+            "profunctor"
+        ],
+        "version": "v0.4.0",
+        "repo": "https://github.com/slamdata/purescript-matryoshka.git"
+    },
     "argonaut": {
         "dependencies": [
             "argonaut-codecs",
