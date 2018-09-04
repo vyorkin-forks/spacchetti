@@ -30,5 +30,6 @@
 ⫽ ./groups/doolse.dhall
 ⫽ ./groups/thomashoneyman.dhall
 ⫽ ./groups/citizennet.dhall
+⫽ ./groups/paulyoung.dhall
 ⫽ ./groups/vyorkin.dhall
 ⫽ ./groups/patches.dhall

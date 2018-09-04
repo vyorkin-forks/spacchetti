@@ -1317,6 +1317,16 @@
         "version": "v4.0.0",
         "repo": "https://github.com/purescript/purescript-assert.git"
     },
+    "prettier-printer": {
+        "dependencies": [
+            "prelude",
+            "console",
+            "lists",
+            "tuples"
+        ],
+        "version": "v2.0.1",
+        "repo": "https://github.com/paulyoung/purescript-prettier-printer.git"
+    },
     "spec": {
         "dependencies": [
             "aff",
