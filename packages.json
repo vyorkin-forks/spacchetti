@@ -648,7 +648,7 @@
             "control",
             "halogen"
         ],
-        "version": "master",
+        "version": "v0.0.3",
         "repo": "https://github.com/thomashoneyman/purescript-halogen-renderless.git"
     },
     "node-path": {
@@ -1174,10 +1174,9 @@
         "dependencies": [
             "halogen",
             "halogen-renderless",
-            "variant",
-            "heterogeneous"
+            "variant"
         ],
-        "version": "master",
+        "version": "v0.2.0",
         "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git"
     },
     "gen": {
