@@ -2,7 +2,7 @@
 
 in  { halogen-formless   =
         mkPackage
-        [ "halogen", "halogen-renderless", "polyform", "validation" ]
+        [ "halogen", "halogen-renderless", "variant", "heterogeneous" ]
         "https://github.com/thomashoneyman/purescript-halogen-formless.git"
         "master"
     , halogen-renderless =

@@ -965,6 +965,18 @@
         "version": "v4.0.0",
         "repo": "https://github.com/purescript-node/purescript-node-url.git"
     },
+    "heterogeneous": {
+        "dependencies": [
+            "prelude",
+            "record",
+            "tuples",
+            "functors",
+            "variant",
+            "either"
+        ],
+        "version": "https://github.com/natefaubion/purescript-heterogeneous.git",
+        "repo": "v0.2.0"
+    },
     "react": {
         "dependencies": [
             "effect",
@@ -1162,8 +1174,8 @@
         "dependencies": [
             "halogen",
             "halogen-renderless",
-            "polyform",
-            "validation"
+            "variant",
+            "heterogeneous"
         ],
         "version": "master",
         "repo": "https://github.com/thomashoneyman/purescript-halogen-formless.git"

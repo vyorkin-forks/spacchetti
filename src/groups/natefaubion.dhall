@@ -1,6 +1,11 @@
     let mkPackage = ./../mkPackage.dhall 
 
-in  { run     =
+in  { heterogeneous =
+        mkPackage
+        [ "prelude", "record", "tuples", "functors", "variant", "either" ]
+        "v0.2.0"
+        "https://github.com/natefaubion/purescript-heterogeneous.git"
+    , run           =
         mkPackage
         [ "aff"
         , "effect"
@@ -18,7 +23,7 @@ in  { run     =
         ]
         "https://github.com/natefaubion/purescript-run.git"
         "v2.0.0"
-    , variant =
+    , variant       =
         mkPackage
         [ "enums"
         , "lists"
