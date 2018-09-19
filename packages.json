@@ -585,6 +585,21 @@
         "version": "v5.0.1",
         "repo": "https://github.com/purescript-contrib/purescript-parsing.git"
     },
+    "b64": {
+        "dependencies": [
+            "prelude",
+            "exceptions",
+            "arraybuffer-types",
+            "either",
+            "functions",
+            "encoding",
+            "partial",
+            "strings",
+            "enums"
+        ],
+        "version": "v0.0.5",
+        "repo": "https://github.com/menelaos/purescript-b64.git"
+    },
     "lcg": {
         "dependencies": [
             "effect",
@@ -1753,6 +1768,17 @@
         ],
         "version": "v5.0.0",
         "repo": "https://github.com/purescript/purescript-semirings.git"
+    },
+    "encoding": {
+        "dependencies": [
+            "prelude",
+            "functions",
+            "either",
+            "arraybuffer-types",
+            "exceptions"
+        ],
+        "version": "v0.0.5",
+        "repo": "https://github.com/menelaos/purescript-encoding.git"
     },
     "psci-support": {
         "dependencies": [
