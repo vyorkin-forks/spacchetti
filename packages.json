@@ -974,8 +974,8 @@
             "variant",
             "either"
         ],
-        "version": "https://github.com/natefaubion/purescript-heterogeneous.git",
-        "repo": "v0.2.0"
+        "version": "v0.2.0",
+        "repo": "https://github.com/natefaubion/purescript-heterogeneous.git"
     },
     "react": {
         "dependencies": [

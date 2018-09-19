@@ -3,8 +3,8 @@
 in  { heterogeneous =
         mkPackage
         [ "prelude", "record", "tuples", "functors", "variant", "either" ]
-        "v0.2.0"
         "https://github.com/natefaubion/purescript-heterogeneous.git"
+        "v0.2.0"
     , run           =
         mkPackage
         [ "aff"
