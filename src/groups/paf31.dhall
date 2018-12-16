@@ -1,4 +1,4 @@
-let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall
 
 in  { event =
         mkPackage
@@ -58,6 +58,11 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-memoize.git"
         "v5.0.0"
+    , reflection =
+        mkPackage
+        [ "unsafe-coerce", "proxy" ]
+        "https://github.com/paf31/purescript-reflection.git"
+        "v4.0.0"
     , string-parsers =
         mkPackage
         [ "arrays"

@@ -1,4 +1,4 @@
-let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall
 
 in  { aff =
         mkPackage
@@ -12,6 +12,19 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-aff.git"
         "v5.0.2"
+    , uri =
+        mkPackage
+        [ "arrays"
+        , "generics-rep"
+        , "globals"
+        , "integers"
+        , "parsing"
+        , "profunctor-lenses"
+        , "unfoldable"
+        , "these"
+        ]
+        "https://github.com/doolse/purescript-uri.git"
+        "v6.0.0"
     , affjax =
         mkPackage
         [ "aff"
@@ -124,6 +137,11 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-routing.git"
         "v8.0.0"
+    , matryoshka =
+        mkPackage
+        [ "prelude", "fixed-points", "free", "transformers", "profunctor" ]
+        "https://github.com/slamdata/purescript-matryoshka.git"
+        "v0.4.0"
     , fixed-points =
         mkPackage
         [ "exists", "newtype", "prelude", "transformers" ]

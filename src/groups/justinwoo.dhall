@@ -1,6 +1,11 @@
-let mkPackage = ./../mkPackage.dhall
+    let mkPackage = ./../mkPackage.dhall
 
-in  { gomtang-basic =
+in  { biang =
+        mkPackage
+        [ "prelude", "typelevel-prelude", "generics-rep" ]
+        "https://github.com/justinwoo/purescript-biang.git"
+        "master"
+    , gomtang-basic =
         mkPackage
         [ "console", "effect", "prelude", "record", "web-html" ]
         "https://github.com/justinwoo/purescript-gomtang-basic.git"
