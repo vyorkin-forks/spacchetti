@@ -1,4 +1,4 @@
-    let mkPackage = ./../mkPackage.dhall
+let mkPackage = ./../mkPackage.dhall
 
 in  { variant =
         mkPackage
@@ -37,4 +37,31 @@ in  { variant =
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
         "https://github.com/natefaubion/purescript-heterogeneous.git"
         "v0.3.0"
+    , routing-duplex =
+        mkPackage
+        [ "prelude"
+        , "record"
+        , "generics-rep"
+        , "either"
+        , "control"
+        , "typelevel-prelude"
+        , "arrays"
+        , "globals"
+        , "strings"
+        , "lazy"
+        , "profunctor"
+        ]
+        "https://github.com/natefaubion/purescript-routing-duplex.git"
+        "v0.2.0"
+    , slug =
+        mkPackage
+        [ "prelude"
+        , "maybe"
+        , "strings"
+        , "unicode"
+        , "generics-rep"
+        , "argonaut-codecs"
+        ]
+        "https://github.com/thomashoneyman/purescript-slug.git"
+        "v0.2.0"
     }
