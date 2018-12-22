@@ -23,7 +23,7 @@ in  { aff =
         , "unfoldable"
         , "these"
         ]
-        "https://github.com/doolse/purescript-uri.git"
+        "https://github.com/slamdata/purescript-uri.git"
         "v6.0.0"
     , affjax =
         mkPackage
