@@ -755,6 +755,14 @@
     "repo": "https://github.com/justinwoo/purescript-gomtang-basic.git",
     "version": "v0.2.0"
   },
+  "graphs": {
+    "dependencies": [
+      "catenable-lists",
+      "ordered-collections"
+    ],
+    "repo": "https://github.com/purescript/purescript-graphs.git",
+    "version": "v4.0.0"
+  },
   "group": {
     "dependencies": [
       "lists"

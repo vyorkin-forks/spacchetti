@@ -539,4 +539,9 @@ in  { arrays =
         ]
         "https://github.com/purescript/purescript-minibench.git"
         "v2.0.0"
+    , graphs =
+        mkPackage
+        [ "ordered-collections", "catenable-lists" ]
+        "https://github.com/purescript/purescript-graphs.git"
+        "v4.0.0"
     }
